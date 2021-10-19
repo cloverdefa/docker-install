@@ -15,10 +15,6 @@ echo "添加Docker權限於使用者帳號 \n"
 sleep 2s
 sudo usermod -aG docker $(whoami)  #添加Docker 權限賦予使用者
 sleep 2s
-echo "檢查Docker安裝版本 \n"
-sleep 2s
-docker version  #檢查Docker安裝版本
-sleep 2s
 echo "OK!Docker安裝完畢 \n"
 sleep 3s
 echo "開始安裝Docker-compose \n"
