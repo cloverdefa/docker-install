@@ -9,6 +9,7 @@ sudo sh get-docker.sh
 sleep 2s
 sudo usermod -aG docker $(whoami)
 sleep 2s
+docker version
 echo -e "OK!Docker安裝完畢 \n"
 echo -e "開始安裝Docker-compose \n"
 sleep 3s
@@ -18,7 +19,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 sleep 2s
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sleep 2s
-docker version
 sleep 2s
 docker-compose --version
 echo -c "Docker-compose安裝完成，3秒後重新啟動系統以使設定及安裝生效"
