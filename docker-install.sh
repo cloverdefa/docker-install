@@ -40,4 +40,5 @@ sleep 3s
 echo "Docker-compose安裝完成，3秒後重新啟動系統以使設定及安裝生效 \n"
 sleep 3s
 sudo rm -r ~/docker   #清理下載資料夾
+sudo rm ~/get-docker.sh   #清理下載安裝捷徑
 sudo reboot  #重新啟動
