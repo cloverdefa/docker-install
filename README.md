@@ -20,3 +20,11 @@ git clone https://github.com/cloverdefa/docker.git
 cd docker
 
 sh ./install-docker.sh
+
+安裝完成後檢查是否正確完成安裝
+
+#指令
+
+docker version
+
+docker-compose --version
