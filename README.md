@@ -1,11 +1,12 @@
 # docker
+
 docker快速安裝
 
 快速於 debian/ubuntu內安裝docker及docker-compose
 
 需先安裝git
 
-#指令
+指令
 
 sudo apt-get update
 
@@ -13,7 +14,7 @@ sudo apt-get install git
 
 下載本指令
 
-git clone https://github.com/cloverdefa/docker.git
+git clone <https://github.com/cloverdefa/docker.git>
 
 安裝
 
@@ -23,7 +24,7 @@ sh ./install-docker.sh
 
 安裝完成後檢查是否正確完成安裝
 
-#指令
+指令
 
 docker version
 
